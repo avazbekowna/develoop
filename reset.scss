@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family:'Open Sans',sans-serif;
+}
+
+
+@mixin ani {
+  padding: 15px 30px;
+  background: #3D5675;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: .4s;
+  cursor: pointer;
+  border: 1px solid #3D5675;
+}
+
+@mixin tr{
+ color: #3D5675;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  cursor: pointer;
+  background: #FFFFFF;
+  border-radius: 44px;
+  border: 1px solid #3D5675;
+}
+
+@mixin as{
+  background: #F2F2F2;
+  border-radius: 44px;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3D5675;
+  padding: 10px 10px;
+  border: none;
+
+
+}
